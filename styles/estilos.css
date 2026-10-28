@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Ubuntu, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #1b3a5c;
+}
+
+.cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 3.5rem;
+  background-color: #1b3a5c;
+  color: #ffffff;
+}
+
+.cabecera__marca {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.menu__lista {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__enlace {
+  display: block;
+  margin-left: 1.5rem;
+  padding: 0.25rem 0;
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu__enlace:hover {
+  text-decoration: underline;
+}
+
+.menu__enlace[aria-current="page"] {
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 0.20rem solid #e8b84a;
+}
+
+.principal {
+  flex: 1;
+  padding: 1rem 3.5rem;
+}
+
+.pie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3.5rem;
+  background-color: #1b3a5c;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.pie__texto {
+  margin: 0;
+}
+
+.pie__lista {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pie__enlace {
+  margin-left: 1.5rem;
+  color: #ffffff;
+  text-decoration: underline;
+}
